@@ -1,0 +1,24 @@
+{
+  "execute_mob": {
+    "subtitle": "andersonsmod.execute_mob",
+    "sounds": [
+      "andersonsmod:execute_mob"
+    ]
+  },
+  "lost_in_the_night": {
+    "sounds": [
+      {
+        "name": "andersonsmod:lost_in_the_night",
+        "stream": true
+      }
+    ]
+  },
+  "xue_hua_piao_piao": {
+    "sounds": [
+      {
+        "name": "andersonsmod:xue_hua_piao_piao",
+        "stream": true
+      }
+    ]
+  }
+}

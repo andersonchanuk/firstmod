@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "X",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "andersonsmod:platinum_ingot"
+    }
+  },
+  "result": {
+    "item": "andersonsmod:platinum_sword"
+  }
+}

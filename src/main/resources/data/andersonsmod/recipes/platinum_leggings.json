@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "andersonsmod:platinum_ingot"
+    }
+  },
+  "result": {
+    "item": "andersonsmod:platinum_leggings"
+  }
+}

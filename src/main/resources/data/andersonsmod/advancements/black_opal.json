@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "andersonsmod:black_opal"
+    },
+    "title": "Black Opal",
+    "description": "Beware the Curse!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "andersonsmod:andersonsmod",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "andersonsmod:black_opal"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "andersonsmod:platinum_ingot"
+    }
+  ],
+  "result": {
+    "item": "andersonsmod:platinum_nugget",
+    "count": 9
+  }
+}
