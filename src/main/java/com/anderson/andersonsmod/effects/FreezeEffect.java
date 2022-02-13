@@ -17,8 +17,8 @@ public class FreezeEffect extends MobEffect {
     public void applyEffectTick(LivingEntity pLivingEntity, int pAmplifier) {
         if (!pLivingEntity.level.isClientSide()) {
             Double x = pLivingEntity.getX();
-            Double y = pLivingEntity.getX();
-            Double z = pLivingEntity.getX();
+            Double y = pLivingEntity.getY();
+            Double z = pLivingEntity.getZ();
             pLivingEntity.teleportTo(x, y, z);
         }
         super.applyEffectTick(pLivingEntity, pAmplifier);
