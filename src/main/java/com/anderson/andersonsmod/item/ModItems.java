@@ -52,6 +52,7 @@ public class ModItems {
     public static final RegistryObject<Item> THE_ONE_RING = ITEMS.register("the_one_ring",
             ()->new EnchantedRingItem(new Item.Properties().tab(ModCreativeModeTab.COURSE_TAB).stacksTo(1)));
 
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }

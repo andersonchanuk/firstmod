@@ -3,8 +3,8 @@
     "icon": {
       "item": "andersonsmod:platinum_ingot"
     },
-    "title": "Anderson's Mod",
-    "description": "Platinum Album!",
+    "title": "Platinum Album!",
+    "description": "Smelt a platinum ingot",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
