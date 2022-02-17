@@ -20,5 +20,11 @@
         "stream": true
       }
     ]
+  },
+  "nuclear_bomb_explosion": {
+    "subtitle": "andersonsmod.nuclear_bomb_explosion",
+    "sounds": [
+      "andersonsmod:nuclear_bomb_explosion"
+    ]
   }
-}
+  }

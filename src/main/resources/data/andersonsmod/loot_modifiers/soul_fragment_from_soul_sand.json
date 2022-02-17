@@ -1,0 +1,10 @@
+{
+  "conditions": [
+    {
+      "condition": "block_state_property",
+      "block": "minecraft:soul_sand"
+    }
+  ],
+  "addition": "andersonsmod:soul_fragment",
+  "type": "andersonsmod:soul_fragment_from_soul_sand"
+}

@@ -1,10 +1,13 @@
 package com.anderson.andersonsmod.item;
 
 import com.anderson.andersonsmod.AndersonsMod;
+import com.anderson.andersonsmod.entity.ModEntityTypes;
 import com.anderson.andersonsmod.item.custom.EnchantedRingItem;
+import com.anderson.andersonsmod.item.custom.MagicalRingItem;
 import com.anderson.andersonsmod.sound.ModSounds;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -51,7 +54,12 @@ public class ModItems {
             ()->new Item(new Item.Properties().tab(ModCreativeModeTab.COURSE_TAB).stacksTo(1)));
     public static final RegistryObject<Item> THE_ONE_RING = ITEMS.register("the_one_ring",
             ()->new EnchantedRingItem(new Item.Properties().tab(ModCreativeModeTab.COURSE_TAB).stacksTo(1)));
-
+    public static final RegistryObject<Item> MAGICAL_RING = ITEMS.register("magical_ring",
+            ()->new MagicalRingItem(new Item.Properties().tab(ModCreativeModeTab.COURSE_TAB).stacksTo(1)));
+    public static final RegistryObject<Item> SOUL_FRAGMENT = ITEMS.register("soul_fragment",
+            ()->new Item(new Item.Properties().fireResistant().tab(ModCreativeModeTab.COURSE_TAB)));
+    public static final RegistryObject<Item> FROST_EGG = ITEMS.register("frost_egg",
+            ()->new ForgeSpawnEggItem(ModEntityTypes.FROST,0x31c2f4,0xcc9966,new Item.Properties().tab(ModCreativeModeTab.COURSE_TAB)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

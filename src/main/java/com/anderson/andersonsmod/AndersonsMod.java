@@ -4,6 +4,7 @@ import com.anderson.andersonsmod.block.ModBlocks;
 import com.anderson.andersonsmod.effects.ModEffects;
 import com.anderson.andersonsmod.effects.ModPotions;
 import com.anderson.andersonsmod.enchantment.ModEnchantments;
+import com.anderson.andersonsmod.entity.ModEntityTypes;
 import com.anderson.andersonsmod.item.ModItems;
 import com.anderson.andersonsmod.sound.ModSounds;
 import net.minecraft.world.level.block.Block;
@@ -42,6 +43,8 @@ public class AndersonsMod
         ModSounds.register(eventBus);
         ModEffects.register(eventBus);
         ModPotions.register(eventBus);
+        ModEntityTypes.register(eventBus);
+
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);

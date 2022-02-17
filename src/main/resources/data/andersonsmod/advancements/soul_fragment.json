@@ -1,15 +1,15 @@
 {
   "display": {
     "icon": {
-      "item": "andersonsmod:the_one_ring"
+      "item": "andersonsmod:soul_fragment"
     },
-    "title": "The Lord of the Rings",
-    "description": "Obtain The One Ring",
+    "title": "Soul Harvester",
+    "description": "Harvest a soul fragment",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true
   },
-  "parent": "andersonsmod:magical_ring",
+  "parent": "andersonsmod:black_opal",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",
@@ -17,7 +17,7 @@
         "items": [
           {
             "items": [
-              "andersonsmod:the_one_ring"
+              "andersonsmod:soul_fragment"
             ]
           }
         ]

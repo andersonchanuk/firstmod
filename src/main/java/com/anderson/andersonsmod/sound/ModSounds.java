@@ -18,6 +18,8 @@ public class ModSounds {
             = registerSoundEvents("lost_in_the_night");
     public static RegistryObject<SoundEvent> XUE_HUA_PIAO_PIAO
             = registerSoundEvents("xue_hua_piao_piao");
+    public static RegistryObject<SoundEvent> NUCLEAR_BOMB_EXPLOSION
+            = registerSoundEvents("nuclear_bomb_explosion");
 
 
 

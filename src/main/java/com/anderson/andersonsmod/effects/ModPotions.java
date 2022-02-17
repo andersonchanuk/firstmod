@@ -17,7 +17,9 @@ public class ModPotions {
             = DeferredRegister.create(ForgeRegistries.POTIONS, AndersonsMod.MOD_ID);
 
     public static  RegistryObject<Potion>FREEZE_POTION  = POTIONS.register("freeze_potion",
-            () ->new Potion(new MobEffectInstance(ModEffects.FREEZE.get(),200,0)));
+            () ->new Potion(new MobEffectInstance(ModEffects.FREEZE.get(),2000,0)));
+    public static  RegistryObject<Potion>PARALYSIS_POTION  = POTIONS.register("paralysis_potion",
+            () ->new Potion(new MobEffectInstance(ModEffects.PARALYSIS.get(),2000,0)));
     public static void register(IEventBus eventBus){
         POTIONS.register(eventBus);
     }

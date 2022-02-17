@@ -1,15 +1,15 @@
 {
   "display": {
     "icon": {
-      "item": "andersonsmod:the_one_ring"
+      "item": "andersonsmod:magical_ring"
     },
-    "title": "The Lord of the Rings",
-    "description": "Obtain The One Ring",
+    "title": "The Path Of Evil",
+    "description": "Obtain the Magical Ring",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true
   },
-  "parent": "andersonsmod:magical_ring",
+  "parent": "andersonsmod:soul_fragment",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",
@@ -17,7 +17,7 @@
         "items": [
           {
             "items": [
-              "andersonsmod:the_one_ring"
+              "andersonsmod:magical_ring"
             ]
           }
         ]

@@ -2,6 +2,8 @@ package com.anderson.andersonsmod.block;
 
 import com.anderson.andersonsmod.AndersonsMod;
 import com.anderson.andersonsmod.block.custom.Black_Opal_Ore;
+import com.anderson.andersonsmod.block.custom.HydrogenBomb;
+import com.anderson.andersonsmod.block.custom.NuclearBomb;
 import com.anderson.andersonsmod.item.ModCreativeModeTab;
 import com.anderson.andersonsmod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -11,7 +13,6 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -30,6 +31,12 @@ public class ModBlocks {
     public static final RegistryObject<Block> Black_Opal_ORE = registerBlock("black_opal_ore",
             () -> new Black_Opal_Ore(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(3f).requiresCorrectToolForDrops()), ModCreativeModeTab.COURSE_TAB);
+    public static final RegistryObject<Block> NUCLEARBOMB = registerBlock("nuclear_bomb",
+            () -> new NuclearBomb(BlockBehaviour.Properties.of(Material.EXPLOSIVE)
+                    .strength(1f).requiresCorrectToolForDrops()), ModCreativeModeTab.COURSE_TAB);
+    public static final RegistryObject<Block> HYDROGENBOMB = registerBlock("hydrogen_bomb",
+            () -> new HydrogenBomb(BlockBehaviour.Properties.of(Material.EXPLOSIVE)
+                    .strength(1f).requiresCorrectToolForDrops()), ModCreativeModeTab.COURSE_TAB);
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn, tab);

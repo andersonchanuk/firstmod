@@ -25,5 +25,11 @@
   "item.andersonsmod.gold_ring": "Gold Ring",
   "item.andersonsmod.the_one_ring": "The One Ring",
   "effect.andersonsmod.freeze": "Freeze",
-  "item.minecraft.potion.effect.freeze_potion": "Freeze Potion"
+  "item.minecraft.potion.effect.freeze_potion": "Freeze Potion",
+  "item.andersonsmod.magical_ring": "Magical Ring",
+  "item.andersonsmod.soul_fragment": "Soul Fragment",
+  "block.andersonsmod.nuclear_bomb": "Nuclear Bomb",
+  "block.andersonsmod.hydrogen_bomb": "Hydrogen Bomb",
+  "entity.andersonsmod.frost" : "Frost",
+  "item.andersonsmod.frost_egg": "Frost Spawn Egg"
 }
